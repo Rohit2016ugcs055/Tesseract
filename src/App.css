@@ -25,3 +25,10 @@
   font-weight: bold;
   font-size: 25px;
 }
+.red{
+   background-color: red;
+   color:white;
+}
+.bold{
+  font-weight: bold;
+}

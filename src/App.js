@@ -12,7 +12,6 @@ class App extends Component{
      this.state={
        record:[],
      }
-    // this.sortBy=this.sortBy.bind(this)
   }
 
 
@@ -42,25 +41,16 @@ class App extends Component{
   render()
   {
   
-    <Tracker/>,
-    <Work/>
+    
 
    
 
-  
+     
     
      return(
      
      <div>
-       <Router>
-        <Link to="/Tracker">About</Link>
-        <Link to="/Work">Form</Link>
-        <Route exact path="/Tracker" component={Tracker}/>
-        <Route exact path="/Work" component={Work}/>
-
-
-
-       </Router>
+      <Work/>
      </div>
     
        
