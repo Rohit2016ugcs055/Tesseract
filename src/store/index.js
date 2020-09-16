@@ -26,6 +26,5 @@ export default function configureStore(initialState = {}) {
     initialState,
     composeEnhancers(...enhancers),
   );
-
   return store;
 }

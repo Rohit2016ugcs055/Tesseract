@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-
+import HiristContainer from '../components/HiristContainer';
 const JobFeedWrapper = styled.div`
 `;
 
@@ -15,6 +15,7 @@ const JobSeek = () => (
   <JobFeedWrapper>
     <PageContentWrapper>
       <h1>Welcome to React!</h1>
+      <HiristContainer/>
     </PageContentWrapper>
   </JobFeedWrapper>
 )

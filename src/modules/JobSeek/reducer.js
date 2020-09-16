@@ -1,7 +1,7 @@
 import { FETCH_JOB_FEEDS, FETCH_JOB_FEEDS_SUCCESS } from './actions/action-types';
 
 const initialState = {
-  jobFeed: '',
+  jobFeed:[], //was string
   isJobLoading: false,
 };
 
@@ -17,7 +17,8 @@ export default (state = initialState, action) => {
       return {
         ...state,
         isJobLoading: false,
-        jobFeed: [ ...state.jobFeed, ...action.payload.jobFeed ],
+       // jobFeed: [ ...state.jobFeed, ...action.payload.jobFeed ],
+       jobFeed:action.payload.jobFeed
       }
 
     default:
