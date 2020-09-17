@@ -15,7 +15,7 @@ const JobSeek = () => (
   <JobFeedWrapper>
     <PageContentWrapper>
       <h1>Welcome to React!</h1>
-      <HiristContainer/>
+      <HiristContainer />
     </PageContentWrapper>
   </JobFeedWrapper>
 )
